@@ -1,0 +1,9 @@
+{ "login-credential-string": [ {
+    "id": 0,
+    "username": "steinar-martinsen",
+    "email": "ste-api@placeholder.com",
+    "password": "IsSoSecret"
+        }
+
+    ]
+}
