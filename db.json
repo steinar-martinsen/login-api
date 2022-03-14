@@ -3,7 +3,19 @@
     "username": "steinar-martinsen",
     "email": "ste-api@placeholder.com",
     "password": "IsSoSecret"
-        }
-
-    ]
+},
+{
+    "username": "TheSetter",
+    "email": "settters@hi.no",
+    "password": "12345678",
+    "id": 1
+},
+{
+"contact-requests": [
+    {
+        
+    }
+]
+}
+]
 }
