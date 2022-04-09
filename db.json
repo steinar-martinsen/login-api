@@ -1,4 +1,4 @@
-{ "login-credential-string": [ {
+{ "login-credential": [ {
         "id": 0,
         "username": "steinar-martinsen",
         "email": "ste-api@placeholder.com",
