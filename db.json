@@ -1,5 +1,4 @@
-
-{ "login-credentials": [ {
+{ "login-credential-string": [ {
         "id": 0,
         "username": "steinar-martinsen",
         "email": "ste-api@placeholder.com",
@@ -10,10 +9,5 @@
         "email": "settters@hi.no",
         "password": "12345678",
         "id": 1
-    }]
-}
-{"contact-requests": [
-    {
-        "hi": "howisyou?"
     }]
 }
