@@ -16,5 +16,22 @@
         "password": "12345678",
         "id": 2
     }
+],
+"products": [ {
+    "id": 0,
+    "product": "Bulbasaur",
+    "price": 40
+    },
+    {
+        "id": 3,
+        "product": "Charmander",
+        "price": 40
+    },
+    {
+        "id": 6,
+        "product": "Squirtle",
+        "price": 40
+    }
+
 ]
 }
