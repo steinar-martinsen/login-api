@@ -6,3 +6,5 @@ const data = require('@/db.json');
 
 router.get("/login",login.validateLogin);
 router.get("/data", data);
+
+module.exports = router;
