@@ -1,16 +1,11 @@
-let dataBaseContent = '';
-
-getDatabase();
-function getDatabase() {
-    fetch('https://ho1-login-api.herokuapp.com/login-credential')
-        .then(response => response.json())
-        .then(data => {
-            dataBaseContent = data;
-    });
-}
-
-validateLogin();
-function validateLogin(request) {
+// function getDatabase() {
+//     fetch('https://ho1-login-api.herokuapp.com/login-credential')
+//         .then(response => response.json())
+//         .then(data => {
+//             dataBaseContent = data;
+//     });
+// }
+const validateLogin = (request) => {
     return new Promise((resolve, reject) => {
         // wrap in timeout to simulate server api call
         setTimeout(() => {
@@ -29,6 +24,7 @@ function validateLogin(request) {
                     email: user.email,
                     token: Math.random(0, 100000000000000)
                 };
+                
                 resolve({ ok: true, text: () => Promise.resolve(JSON.stringify(responseJson)) });
             } else {
                 // else return error
