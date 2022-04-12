@@ -1,5 +1,5 @@
 const express = require("express");
-const routes = require("./routes/tea");
+const routes = require("./routes/users.js");
 const mongoose = require("mongoose");
 const helmet = require("helmet");
 const cors = require("cors");
