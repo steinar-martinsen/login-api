@@ -24,7 +24,7 @@ const validateLogin = (request) => {
                     email: user.email,
                     token: Math.random(0, 100000000000000)
                 };
-                
+
                 resolve({ ok: true, text: () => Promise.resolve(JSON.stringify(responseJson)) });
             } else {
                 // else return error
@@ -34,3 +34,6 @@ const validateLogin = (request) => {
         }, 500);
     });
 }
+module.exports = {
+    validateLogin
+};
